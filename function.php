@@ -3,7 +3,7 @@
 session_start();
 
 //koneksi ke db
-$koneksi = mysqli_connect("localhost","root","","db_kasir");
+$koneksi = mysqli_connect("localhost","root","h3lls1ng","db_kasir");
 
 //Login
 if (isset($_POST["login"])) {
